@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LGE Nexus 5</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,mediumitalic,bold" rel="stylesheet">
+        <link href="../static/bootstrap.min.css" rel="stylesheet">
+        <link href="../static/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="../static/spoon.css" rel="stylesheet">
+        <script src="../static/jquery.min.js"></script>
+        <script src="../static/bootstrap.min.js"></script>
+        <meta name="description" content="">
+    </head>
+    <body>
+        <div class="container">
+            <div class="hero-unit">
+                <h1>LGE Nexus 5</h1>
+                <p>5 tests run with 4 passing and 1 failing in 13 seconds at 2017-03-07 03:07 下午</p>
+                <p>Running Android 6.0.1 (API 23)</p>
+            </div>
+            <div class="row" id="com-fantasyfang-googletrendapp-presentation-trend-GoogleTrendActivityTest-mainActivity-Display-Get-Trend-error">
+                <div class="span12">
+                    <h2 class="test-result fail">
+                        Main Activity, Display, Get, Trend ,error <small>GoogleTrendActivityTest</small>
+                        <!-- Icons modified from Glyphish Free. http://glyphish.com -->
+                        <a href="../logs/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Display_Get_Trend_error.html" title="View device log" class="pull-right icon">
+                            <img src="../static/icon-log.png" alt="View device log">
+                        </a>
+                        <a href="../test/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Display_Get_Trend_error.html" title="View on all devices" class="pull-right icon">
+                            <img src="../static/icon-devices.png" alt="View on all devices">
+                        </a>
+                    </h2>
+                    <div class="alert alert-error stacktrace fail">
+                        <h4 data-toggle="collapse" data-target="#stacktrace-46">android.support.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: 'is displayed on the screen to the user' doesn't match the selected view.<br/>Expected: is displayed on the screen to the user<br/>Got: "AppCompatTextView{id=2131492965, res-name=noTrendInfoTxt, visibility=INVISIBLE, width=992, height=101, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, root-is-layout-requested=false, has-input-connection=false, x=44.0, y=801.0, text=Do not have the newest trend., input-type=0, ime-target=false, has-links=false}"</h4>
+                        <div class="stacktrace-body collapse" id="stacktrace-46">
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at dalvik.system.VMStack.getThreadStackTrace(Native Method)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.Thread.getStackTrace(Thread.java:580)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:92)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:56)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.espresso.ViewInteraction.runSynchronouslyOnUiThread(ViewInteraction.java:184)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.espresso.ViewInteraction.check(ViewInteraction.java:158)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest.mainActivity_Display_Get_Trend_error(GoogleTrendActivityTest.java:107)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.reflect.Method.invoke(Native Method)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.internal.statement.UiThreadStatement.evaluate(UiThreadStatement.java:55)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:270)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.rules.RunRules.evaluate(RunRules.java:20)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.Suite.runChild(Suite.java:128)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.Suite.runChild(Suite.java:27)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1879)</div>
+                            <div class="stacktrace-line">Caused by: junit.framework.AssertionFailedError: 'is displayed on the screen to the user' doesn't match the selected view.<br/>Expected: is displayed on the screen to the user<br/>Got: "AppCompatTextView{id=2131492965, res-name=noTrendInfoTxt, visibility=INVISIBLE, width=992, height=101, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, root-is-layout-requested=false, has-input-connection=false, x=44.0, y=801.0, text=Do not have the newest trend., input-type=0, ime-target=false, has-links=false}"</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="com-fantasyfang-googletrendapp-presentation-trend-GoogleTrendActivityTest-mainActivity-RecycleViewChangeCountry">
+                <div class="span12">
+                    <h2 class="test-result pass">
+                        Main Activity, Recycle View Change Country <small>GoogleTrendActivityTest</small>
+                        <!-- Icons modified from Glyphish Free. http://glyphish.com -->
+                        <a href="../logs/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewChangeCountry.html" title="View device log" class="pull-right icon">
+                            <img src="../static/icon-log.png" alt="View device log">
+                        </a>
+                        <a href="../test/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewChangeCountry.html" title="View on all devices" class="pull-right icon">
+                            <img src="../static/icon-devices.png" alt="View on all devices">
+                        </a>
+                    </h2>
+                    <ul class="thumbnails">
+                        <li class="span2">
+                            <a href="../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewChangeCountry/1488870507715_Country_Brazil.png" class="thumbnail">
+                                <img src="../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewChangeCountry/1488870507715_Country_Brazil.png" title="Country Brazil">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row" id="com-fantasyfang-googletrendapp-presentation-trend-GoogleTrendActivityTest-mainActivity-RecycleViewChangeGridSize">
+                <div class="span12">
+                    <h2 class="test-result pass">
+                        Main Activity, Recycle View Change Grid Size <small>GoogleTrendActivityTest</small>
+                        <!-- Icons modified from Glyphish Free. http://glyphish.com -->
+                        <a href="../logs/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewChangeGridSize.html" title="View device log" class="pull-right icon">
+                            <img src="../static/icon-log.png" alt="View device log">
+                        </a>
+                        <a href="../test/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewChangeGridSize.html" title="View on all devices" class="pull-right icon">
+                            <img src="../static/icon-devices.png" alt="View on all devices">
+                        </a>
+                        <a href="../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewChangeGridSize.gif" title="View as animated GIF" class="pull-right icon">
+                            <img src="../static/icon-animated.png" alt="View as animated GIF">
+                        </a>
+                    </h2>
+                    <ul class="thumbnails">
+                        <li class="span2">
+                            <a href="../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewChangeGridSize/1488870497045_Choose_grid.png" class="thumbnail">
+                                <img src="../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewChangeGridSize/1488870497045_Choose_grid.png" title="Choose Grid">
+                            </a>
+                        </li>
+                        <li class="span2">
+                            <a href="../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewChangeGridSize/1488870498828_11_grid.png" class="thumbnail">
+                                <img src="../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewChangeGridSize/1488870498828_11_grid.png" title="11 Grid">
+                            </a>
+                        </li>
+                        <li class="span2">
+                            <a href="../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewChangeGridSize/1488870501461_22_grid.png" class="thumbnail">
+                                <img src="../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewChangeGridSize/1488870501461_22_grid.png" title="22 Grid">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row" id="com-fantasyfang-googletrendapp-presentation-trend-GoogleTrendActivityTest-mainActivity-RecycleViewClickItem">
+                <div class="span12">
+                    <h2 class="test-result pass">
+                        Main Activity, Recycle View Click Item <small>GoogleTrendActivityTest</small>
+                        <!-- Icons modified from Glyphish Free. http://glyphish.com -->
+                        <a href="../logs/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewClickItem.html" title="View device log" class="pull-right icon">
+                            <img src="../static/icon-log.png" alt="View device log">
+                        </a>
+                        <a href="../test/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewClickItem.html" title="View on all devices" class="pull-right icon">
+                            <img src="../static/icon-devices.png" alt="View on all devices">
+                        </a>
+                    </h2>
+                    <ul class="thumbnails">
+                        <li class="span2">
+                            <a href="../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewClickItem/1488870503823_Country_menu.png" class="thumbnail">
+                                <img src="../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewClickItem/1488870503823_Country_menu.png" title="Country Menu">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row" id="com-fantasyfang-googletrendapp-presentation-trend-GoogleTrendActivityTest-mainActivity-onLaunch-RecycleViewDisplayed">
+                <div class="span12">
+                    <h2 class="test-result pass">
+                        Main Activity ,on Launch, Recycle View Displayed <small>GoogleTrendActivityTest</small>
+                        <!-- Icons modified from Glyphish Free. http://glyphish.com -->
+                        <a href="../logs/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_onLaunch_RecycleViewDisplayed.html" title="View device log" class="pull-right icon">
+                            <img src="../static/icon-log.png" alt="View device log">
+                        </a>
+                        <a href="../test/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_onLaunch_RecycleViewDisplayed.html" title="View on all devices" class="pull-right icon">
+                            <img src="../static/icon-devices.png" alt="View on all devices">
+                        </a>
+                    </h2>
+                    <ul class="thumbnails">
+                        <li class="span2">
+                            <a href="../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_onLaunch_RecycleViewDisplayed/1488870505119_Initial_state.png" class="thumbnail">
+                                <img src="../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_onLaunch_RecycleViewDisplayed/1488870505119_Initial_state.png" title="Initial State">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $('.icon, .thumbnail img').tooltip({
+                container: 'body'
+            });
+        </script>
+    </body>
+</html>
